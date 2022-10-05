@@ -1,28 +1,28 @@
 SplineFontDB: 3.2
-FontName: IBMPlexMono
-FullName: IBM Plex Mono
-FamilyName: IBM Plex Mono
-Weight: Book
-Copyright: Copyright 2017 IBM Corp. All rights reserved.
-Version: 2.3
+FontName: KiwiMonoRegular
+FullName: Kiwi Mono Regular
+FamilyName: Kiwi Mono
+Weight: Regular
+Copyright: Copyright 2017 IBM Corp and Information Architects GmbH. Includes glyphs from Powerline Symbols. Combined by Yamagi. All rights reserved.
+Version: 1.0
 ItalicAngle: 0
 UnderlinePosition: -170
 UnderlineWidth: 60
 Ascent: 780
 Descent: 220
 InvalidEm: 0
-sfntRevision: 0x000200c4
+sfntRevision: 0x00020000
 LayerCount: 2
 Layer: 0 1 "Hinten" 1
 Layer: 1 1 "Vorne" 0
-XUID: [1021 67 82745506 6146687]
+XUID: [1021 807 -1602172241 4675409]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 0
 CreationTime: 1628853119
-ModificationTime: 1628845921
+ModificationTime: 1664947011
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -80,6 +80,7 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lo
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 1" { "'mark' Mark Positioning lookup 1 subtable"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 2" { "'mark' Mark Positioning lookup 2 subtable"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 3" { "'mark' Mark Positioning lookup 3 subtable"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'ccmp' Glyph Composition/Decomposition lookup 3 contextual 4" 0 0 0 1
  1 1 0
@@ -781,20 +782,31 @@ ShortTable: maxp 16
   3
   1
 EndShort
-LangName: 1033 "" "" "Regular" "2.3;IBM ;IBMPlexMono" "" "Version 2.3" "" "IBM Plex+AK4A is a trademark of IBM Corp, registered in many jurisdictions worldwide." "Bold Monday" "Mike Abbink, Paul van der Laan, Pieter van Rosmalen" "" "http://www.boldmonday.com" "http://www.ibm.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "" "" "" "How razorback-jumping frogs can level six piqued gymnasts!"
+LangName: 1033 "" "" "" "" "" "Version 2.3" "" "" "" "Mike Abbink, Paul van der Laan, Pieter van Rosmalen, Oliver Reichenstein" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "" "" "" "How razorback-jumping frogs can level six piqued gymnasts!"
 GaspTable: 3 8 10 16 5 65535 15 1
-OtfFeatName: 'ss05' 1033 "alternate lowercase eszett"
-OtfFeatName: 'ss04' 1033 "plain number zero"
-OtfFeatName: 'ss03' 1033 "slashed number zero"
-OtfFeatName: 'ss02' 1033 "simple lowercase g"
 OtfFeatName: 'ss01' 1033 "simple lowercase a"
+OtfFeatName: 'ss02' 1033 "simple lowercase g"
+OtfFeatName: 'ss03' 1033 "slashed number zero"
+OtfFeatName: 'ss04' 1033 "plain number zero"
+OtfFeatName: 'ss05' 1033 "alternate lowercase eszett"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 48 24 19
+WinInfo: 48 24 18
+BeginPrivate: 8
+BlueValues 47 [-12 0 335 341 369 375 516 528 698 710 740 752]
+OtherBlues 27 [-212 -200 323 329 357 363]
+BlueScale 6 0.0625
+BlueFuzz 1 0
+StdHW 4 [68]
+StdVW 4 [80]
+StemSnapH 13 [50 62 68 73]
+StemSnapV 14 [68 80 89 114]
+EndPrivate
+TeXData: 1 0 0 629145 314572 209715 541065 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 0 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mark' Mark Positioning lookup 2 subtable" "Anchor-3" "'mark' Mark Positioning lookup 3 subtable"
 BeginChars: 65639 1033
 
