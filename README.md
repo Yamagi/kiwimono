@@ -1,3 +1,5 @@
+**This repository has moved to Codeberg!** It can now be found at https://codeberg.org/yamagi/kiwimono
+
 # Kiwi Mono
 
 Kiwi Mono is a monospace font based upon
